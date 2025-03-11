@@ -77,7 +77,7 @@ export default function Home() {
           </nav>
           <div className="hidden md:block">
             <Button variant="outline" className="border-teal-600 text-teal-500 hover:bg-teal-600/10">
-              <a href="/tim-maina-resume.pdf" download="Tim_Maina_Resume.pdf">
+              <a href="/Tim Maina.pdf" download="Tim_Maina_Resume.pdf">
                 Resume
               </a>
             </Button>
@@ -142,7 +142,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="aspect-square max-w-md mx-auto bg-zinc-800 rounded-xl overflow-hidden">
-              <img src="/placeholder.svg?height=400&width=400" alt="Profile" className="w-full h-full object-cover" />
+              <img src="/Tim.JPG" alt="Profile" className="w-full h-full object-cover" />
             </div>
             <div>
               <p className="text-lg text-gray-300 mb-6">
@@ -751,4 +751,3 @@ export default function Home() {
     </div>
   )
 }
-
