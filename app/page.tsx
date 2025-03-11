@@ -635,7 +635,7 @@ export default function Home() {
                   <p className="text-gray-400">August 2021 - April 2022</p>
                 </div>
                 <p className="text-gray-300 mb-2">Education Volunteer</p>
-                <p className="text-gray-400">Content design and development.</p>
+                <p className="text-gray-400">Volunteered to develop tech-driven solutions to enhance learning.</p>
               </CardContent>
             </Card>
           </div>
