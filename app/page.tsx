@@ -558,26 +558,37 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  An application for managing rental properties, tenants, leases, and maintenance requests. Backend is
-                  complete, frontend is currently in development.
+                  A full-stack application for managing rental properties, tenants, leases, and maintenance requests.
+                  Built with Next.js and TypeScript for the frontend, FastAPI for the backend, and PostgreSQL/Redis for
+                  data storage.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge
                     variant="outline"
-                    className="bg-green-950/30 text-green-400 border-green-800 hover:bg-green-900/40"
-                  >
-                    Django
+                    className="bg-blue-950/30 text-blue-400 border-blue-800 hover:bg-blue-900/40">
+                    Next.js
                   </Badge>
                   <Badge
                     variant="outline"
-                    className="bg-blue-950/30 text-blue-400 border-blue-800 hover:bg-blue-900/40"
-                  >
-                    Python
+                    className="bg-green-950/30 text-green-400 border-green-800 hover:bg-green-900/40">
+                    FastAPI
                   </Badge>
                   <Badge
                     variant="outline"
-                    className="bg-teal-950/30 text-teal-400 border-teal-800 hover:bg-teal-900/40"
-                  >
+                    className="bg-indigo-950/30 text-indigo-400 border-indigo-800 hover:bg-indigo-900/40">
+                    PostgreSQL
+                  </Badge>
+                  <Badge variant="outline" className="bg-red-950/30 text-red-400 border-red-800 hover:bg-red-900/40">
+                    Redis
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="bg-blue-950/30 text-blue-400 border-blue-800 hover:bg-blue-900/40">
+                    Docker
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="bg-teal-950/30 text-teal-400 border-teal-800 hover:bg-teal-900/40">
                     JavaScript
                   </Badge>
                 </div>
