@@ -147,17 +147,16 @@ export default function Home() {
             </div>
             <div>
               <p className="text-lg text-gray-300 mb-6">
-                I'm a Software Engineer passionate about building scalable and efficient applications. I have experience
-                in frontend and backend development, data engineering, and technical support.
+              I'm a Software Engineer with 3+ years of experience in building scalable and efficient applications.
+              I have expertise in frontend and backend development, data engineering, and technical support.
               </p>
               <p className="text-lg text-gray-300 mb-6">
-                I enjoy collaborating with teams to solve complex problems and create impactful solutions. Currently,
-                I'm exploring AI and its applications to enhance automation, data processing, and intelligent
-                decision-making.
+              I enjoy collaborating with teams to solve complex problems and create impactful solutions.
+              Currently, I'm exploring AI and its applications to enhance automation, data processing, and intelligent decision-making.
               </p>
               <p className="text-lg text-gray-300">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                and continuously expanding my technical knowledge.
+              When I'm not coding, you can find me exploring new technologies,
+              contributing to open-source projects, and continuously expanding my technical knowledge.
               </p>
             </div>
           </div>
