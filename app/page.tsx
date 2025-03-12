@@ -77,7 +77,7 @@ export default function Home() {
           </nav>
           <div className="hidden md:block">
             <Button variant="outline" className="border-teal-600 text-teal-500 hover:bg-teal-600/10">
-              <a href="/Tim Maina.pdf" download="Tim_Maina_Resume.pdf">
+            <a href="/Tim Maina.pdf" download="Tim_Maina_Resume.pdf">
                 Resume
               </a>
             </Button>
@@ -100,8 +100,9 @@ export default function Home() {
             Software Engineer
           </h1>
           <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl">
-            I build exceptional and accessible digital experiences for the web. Focused on creating scalable and
-            efficient applications.
+            I build scalable, efficient, and accessible software solutions that enhance digital experiences. Passionate
+            about leveraging AI technologies to develop intelligent, high-performance applications that drive innovation
+            and usability.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button className="bg-teal-600 hover:bg-teal-700 text-white">
@@ -142,7 +143,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="aspect-square max-w-md mx-auto bg-zinc-800 rounded-xl overflow-hidden">
-              <img src="/Tim.JPG" alt="Profile" className="w-full h-full object-cover" />
+            <img src="/Tim.JPG" alt="Profile" className="w-full h-full object-cover" />
             </div>
             <div>
               <p className="text-lg text-gray-300 mb-6">
@@ -396,6 +397,70 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            {/* Usalama Technology Limited */}
+            <div className="relative">
+              <div className="flex items-center mb-6">
+                <div className="w-16 h-16 bg-zinc-800 rounded-lg flex items-center justify-center mr-4">
+                  <span className="text-2xl font-bold">UTL</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold">Usalama Technology Limited</h3>
+                  <p className="text-gray-400">Jun 2019 - Aug 2019 · 3 mos</p>
+                  <p className="text-gray-500 text-sm">Nairobi, Kenya</p>
+                </div>
+              </div>
+
+              <div className="ml-0 md:ml-8 pl-4 md:pl-12 border-l-2 border-teal-600/30 space-y-8 relative">
+                <div className="relative">
+                  <div className="absolute -left-[3.25rem] top-0 w-6 h-6 rounded-full bg-teal-600/40"></div>
+                  <Card className="bg-zinc-900 border-zinc-800">
+                    <CardContent className="p-6">
+                      <div className="flex flex-col md:flex-row justify-between mb-4">
+                        <div>
+                          <h4 className="text-xl font-bold text-white">Junior Frontend Web Developer</h4>
+                          <p className="text-gray-400">Jun 2019 - Aug 2019 · 3 mos</p>
+                          <p className="text-gray-500 text-sm">Apprenticeship · Nairobi, Kenya</p>
+                        </div>
+                      </div>
+                      <ul className="text-gray-300 mb-4 list-disc pl-5 space-y-2">
+                        <li>
+                          Utilised JavaScript, HTML, and CSS to create interactive and visually appealing web pages.
+                        </li>
+                        <li>
+                          Developed and maintained responsive website designs, improving user experience across various
+                          devices.
+                        </li>
+                        <li>
+                          Integrated social media functionality into websites, boosting online presence and engagement.
+                        </li>
+                        <li>Implemented SEO strategies to improve website visibility and search engine rankings.</li>
+                      </ul>
+                      <div className="flex flex-wrap gap-2 mt-4">
+                        <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                          JavaScript
+                        </Badge>
+                        <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                          HTML
+                        </Badge>
+                        <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                          CSS
+                        </Badge>
+                        <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                          Responsive Design
+                        </Badge>
+                        <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                          SEO
+                        </Badge>
+                        <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                          Android Development
+                        </Badge>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -628,16 +693,95 @@ export default function Home() {
             </div>
 
             <h3 className="text-2xl font-bold mb-6 mt-12">Volunteering</h3>
-            <Card className="bg-zinc-900 border-zinc-800">
-              <CardContent className="p-6">
-                <div className="flex flex-col md:flex-row justify-between mb-2">
-                  <h4 className="text-xl font-bold text-white">Asante Africa Foundation</h4>
-                  <p className="text-gray-400">August 2021 - April 2022</p>
-                </div>
-                <p className="text-gray-300 mb-2">Education Volunteer</p>
-                <p className="text-gray-400">Volunteered to develop tech-driven solutions to enhance learning.</p>
-              </CardContent>
-            </Card>
+            <div className="space-y-6">
+              <Card className="bg-zinc-900 border-zinc-800">
+                <CardContent className="p-6">
+                  <div className="flex flex-col md:flex-row justify-between mb-2">
+                    <h4 className="text-xl font-bold text-white">Information Technology Specialist</h4>
+                    <p className="text-gray-400">August 2021 - April 2022 · 9 mos</p>
+                  </div>
+                  <p className="text-gray-300 mb-2">Asante Africa Foundation</p>
+                  <p className="text-gray-400 mb-4">Education</p>
+                  <ul className="text-gray-300 mb-4 list-disc pl-5 space-y-2">
+                    <li>
+                      Volunteered to develop tech-driven solutions to enhance learning by creating digital education
+                      tools.
+                    </li>
+                    <li>
+                      Designed and developed interactive educational content using HTML5, CSS3, and JavaScript for the
+                      Kolibri learning platform, enabling offline access to quality learning materials for students.
+                    </li>
+                  </ul>
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      HTML5
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      CSS3
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      JavaScript
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      Kolibri
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      Education
+                    </Badge>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-zinc-900 border-zinc-800">
+                <CardContent className="p-6">
+                  <div className="flex flex-col md:flex-row justify-between mb-2">
+                    <h4 className="text-xl font-bold text-white">Information Communication Technology Specialist</h4>
+                    <p className="text-gray-400">April 2021 - June 2021 · 3 mos</p>
+                  </div>
+                  <p className="text-gray-300 mb-2">The Lewa Wildlife Conservancy</p>
+                  <p className="text-gray-400 mb-4">Education</p>
+                  <ul className="text-gray-300 mb-4 list-disc pl-5 space-y-2">
+                    <li>
+                      Developed and designed interactive educational content using HTML5, CSS3, and JavaScript for the
+                      Kolibri learning platform, enabling offline access to quality learning materials for students.
+                    </li>
+                    <li>
+                      Assisted in deploying and maintaining Kolibri systems in classrooms, ensuring seamless
+                      functionality of digital learning resources.
+                    </li>
+                    <li>
+                      Configured and connected student tablets to a central classroom screen, facilitating collaborative
+                      learning and improving engagement.
+                    </li>
+                    <li>
+                      Gained hands-on experience in IP networking and device connectivity, ensuring stable communication
+                      between learning devices.
+                    </li>
+                    <li>
+                      Supported educators and students in adopting and utilizing digital learning tools, enhancing their
+                      ability to access educational resources without the Internet.
+                    </li>
+                  </ul>
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      HTML5
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      CSS3
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      JavaScript
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      Kolibri
+                    </Badge>
+                    <Badge variant="outline" className="bg-zinc-800/50 text-gray-300 border-zinc-700">
+                      IP Networking
+                    </Badge>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
@@ -751,3 +895,4 @@ export default function Home() {
     </div>
   )
 }
+
