@@ -848,7 +848,7 @@ export default function Home() {
                   <h3 className="text-xl font-semibold">Blog</h3>
                 </div>
                 <a
-                  href="https://hashnode.com/@tim665"
+                  href="https://tim665.hashnode.dev/"
                   target="_blank"
                   className="text-gray-300 hover:text-teal-500 transition-colors"
                   rel="noreferrer"
