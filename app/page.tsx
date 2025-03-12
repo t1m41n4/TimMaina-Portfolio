@@ -68,7 +68,7 @@ export default function Home() {
             <Link href="#education" className="hover:text-teal-500 transition-colors">
               Education
             </Link>
-            <Link href="https://hashnode.com/@tim665" target="_blank" className="hover:text-teal-500 transition-colors">
+            <Link href="https://tim665.hashnode.dev/" target="_blank" className="hover:text-teal-500 transition-colors">
               Blog
             </Link>
             <Link href="#contact" className="hover:text-teal-500 transition-colors">
