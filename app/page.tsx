@@ -483,7 +483,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold">High School Website</h3>
                   <div className="flex gap-2">
                     <Link
-                      href="https://github.com/t1m41n4/k-school"
+                      href="#"
                       target="_blank"
                       className="text-gray-400 hover:text-white transition-colors"
                     >
@@ -491,7 +491,7 @@ export default function Home() {
                       <span className="sr-only">GitHub</span>
                     </Link>
                     <Link
-                      href="https://kerikosecondary.com/"
+                      href="#"
                       target="_blank"
                       className="text-gray-400 hover:text-white transition-colors"
                     >
