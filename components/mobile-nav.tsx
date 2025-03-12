@@ -70,7 +70,7 @@ export function MobileNav() {
             Contact
           </Link>
           <Link
-            href="/tim-maina-resume.pdf"
+            href="/Tim Maina.pdf"
             download="Tim_Maina_Resume.pdf"
             className="text-lg font-medium text-teal-500 hover:text-teal-400 transition-colors"
             onClick={() => setOpen(false)}
