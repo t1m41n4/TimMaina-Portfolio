@@ -147,7 +147,7 @@ export default function Home() {
             </div>
             <div>
               <p className="text-lg text-gray-300 mb-6">
-              I'm a Software Engineer with 3+ years of experience in building scalable and efficient applications.
+              I'm a Software Engineer with 4+ years of experience in building scalable and efficient applications.
               I have expertise in frontend and backend development, data engineering, and technical support.
               </p>
               <p className="text-lg text-gray-300 mb-6">
@@ -501,15 +501,15 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  A comprehensive website for a high school, featuring information about the school, programs,
-                  admissions, and more.
+                  A sleek, responsive platform designed to showcase a school's achievements, leadership, and community impact.
+                  Built with TypeScript, CSS, and JavaScript, it offers intuitive navigation, accessible content, and engaging visuals for an enhanced user experience.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge
                     variant="outline"
                     className="bg-blue-950/30 text-blue-400 border-blue-800 hover:bg-blue-900/40"
                   >
-                    HTML
+                    TypeScript
                   </Badge>
                   <Badge
                     variant="outline"
@@ -522,12 +522,6 @@ export default function Home() {
                     className="bg-yellow-950/30 text-yellow-400 border-yellow-800 hover:bg-yellow-900/40"
                   >
                     JavaScript
-                  </Badge>
-                  <Badge
-                    variant="outline"
-                    className="bg-indigo-950/30 text-indigo-400 border-indigo-800 hover:bg-indigo-900/40"
-                  >
-                    PHP
                   </Badge>
                 </div>
               </CardContent>
