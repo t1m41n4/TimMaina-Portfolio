@@ -538,22 +538,29 @@ export default function Home() {
               </div>
               <CardContent className="p-6">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-bold">Rental Management App</h3>
+                  <h3 className="text-xl font-bold">NyumbaGrid</h3>
                   <div className="flex gap-2">
                     <Link
-                      href="https://github.com/t1m41n4/rental-management-app"
+                      href="https://github.com/t1m41n4/NyumbaGrid"
                       target="_blank"
                       className="text-gray-400 hover:text-white transition-colors"
                     >
                       <Github size={20} />
                       <span className="sr-only">GitHub</span>
                     </Link>
+                    <Link
+                      href="https://nyumba-grid.vercel.app/"
+                      target="_blank"
+                      className="text-gray-400 hover:text-white transition-colors"
+                    >
+                      <ExternalLink size={20} />
+                      <span className="sr-only">Live Demo</span>
+                    </Link>
                   </div>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  A full-stack application for managing rental properties, tenants, leases, and maintenance requests.
-                  Built with Next.js and TypeScript for the frontend, FastAPI for the backend, and PostgreSQL/Redis for
-                  data storage.
+                Property management platform built with Next.js, TypeScript, React, and Prisma
+                Features property listings, tenant & rent management, maintenance, and analytics.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge
@@ -564,25 +571,15 @@ export default function Home() {
                   <Badge
                     variant="outline"
                     className="bg-green-950/30 text-green-400 border-green-800 hover:bg-green-900/40">
-                    FastAPI
+                    TypeScript
                   </Badge>
                   <Badge
                     variant="outline"
                     className="bg-indigo-950/30 text-indigo-400 border-indigo-800 hover:bg-indigo-900/40">
-                    PostgreSQL
+                    React
                   </Badge>
                   <Badge variant="outline" className="bg-red-950/30 text-red-400 border-red-800 hover:bg-red-900/40">
-                    Redis
-                  </Badge>
-                  <Badge
-                    variant="outline"
-                    className="bg-blue-950/30 text-blue-400 border-blue-800 hover:bg-blue-900/40">
-                    Docker
-                  </Badge>
-                  <Badge
-                    variant="outline"
-                    className="bg-teal-950/30 text-teal-400 border-teal-800 hover:bg-teal-900/40">
-                    JavaScript
+                    Prisma
                   </Badge>
                 </div>
               </CardContent>
