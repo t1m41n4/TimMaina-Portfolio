@@ -559,8 +559,9 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-400 mb-4">
-                A Property management system with real-time maintenance tracking, digital lease management, and payment processing.
-                Built with Next.js, TypeScript, Prisma, PostgreSQL, TailwindCSS, and Stripe integration. Features RBAC, automated notifications, and responsive dashboard.
+                A property management system with real-time maintenance tracking, digital lease management, and payment processing.
+                Built with Next.js, TypeScript, Prisma, PostgreSQL, TailwindCSS, and Stripe integration.
+                Features RBAC, automated notifications, and responsive dashboard.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge
