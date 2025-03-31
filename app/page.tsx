@@ -559,8 +559,8 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-400 mb-4">
-                Property management platform built with Next.js, TypeScript, React, and Prisma
-                Features property listings, tenant & rent management, maintenance, and analytics.
+                A Property management system with real-time maintenance tracking, digital lease management, and payment processing.
+                Built with Next.js, TypeScript, Prisma, PostgreSQL, TailwindCSS, and Stripe integration. Features RBAC, automated notifications, and responsive dashboard.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge
@@ -578,8 +578,24 @@ export default function Home() {
                     className="bg-indigo-950/30 text-indigo-400 border-indigo-800 hover:bg-indigo-900/40">
                     React
                   </Badge>
-                  <Badge variant="outline" className="bg-red-950/30 text-red-400 border-red-800 hover:bg-red-900/40">
-                    Prisma
+                  <Badge
+                    variant="outline" className="bg-red-950/30 text-red-400 border-red-800 hover:bg-red-900/40">
+                  Prisma
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="bg-purple-950/30 text-purple-400 border-purple-800 hover:bg-purple-900/40">
+                    PostgreSQL
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="bg-yellow-950/30 text-yellow-400 border-yellow-800 hover:bg-yellow-900/40">
+                    TailwindCSS
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="bg-teal-950/30 text-teal-400 border-teal-800 hover:bg-teal-900/40">
+                    Stripe integration
                   </Badge>
                 </div>
               </CardContent>
