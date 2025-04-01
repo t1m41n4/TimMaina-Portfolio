@@ -417,7 +417,7 @@ export default function Home() {
                     <CardContent className="p-6">
                       <div className="flex flex-col md:flex-row justify-between mb-4">
                         <div>
-                          <h4 className="text-xl font-bold text-white">Junior Frontend Web Developer</h4>
+                          <h4 className="text-xl font-bold text-white">Junior Frontend Developer</h4>
                           <p className="text-gray-400">Jun 2019 - Aug 2019 · 3 mos</p>
                           <p className="text-gray-500 text-sm">Apprenticeship · Nairobi, Kenya</p>
                         </div>
