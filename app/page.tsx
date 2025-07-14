@@ -491,7 +491,7 @@ export default function Home() {
                       <span className="sr-only">GitHub</span>
                     </Link>
                     <Link
-                      href="https://secondary-school-website-two.vercel.app/"
+                      href="https://github.com/t1m41n4"
                       target="_blank"
                       className="text-gray-400 hover:text-white transition-colors"
                     >
